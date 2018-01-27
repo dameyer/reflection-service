@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+    let c = {
+        callout: function() {
+            let pieces = location.href.split('/');
+            let data = document.getElementById('data').value
+            let svcUrl = pieces[0] + '//' + pieces[2] + '/service/?data=' + data
+            console.log(srcUrl)
+            $.ajax({
+                url: svcUrl
+            }).then(function(data) {
+                console.log(data);
+            });
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <textarea id="data" rows="4" cols="50"></textarea>
+    <br/>
+    <input type="button" onclick="c.callout()" value="call">    
+</body>
+
+</html>
