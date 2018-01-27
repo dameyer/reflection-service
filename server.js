@@ -24,7 +24,7 @@ app.get('/service',
         console.log(data)
 
         res.setHeader("Access-Control-Allow-Origin", "https://wmp-dh-dev-ed--c.na73.visual.force.com");        
-        res.setHeader("Vary": "Origin")
+        res.setHeader("Vary", "Origin")
 //        res.setHeader("Access-Control-Allow-Origin", "*");
 
         res.setHeader("Access-Control-Allow-Credentials", "true");
