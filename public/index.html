@@ -8,7 +8,7 @@
             let pieces = location.href.split('/');
             let data = document.getElementById('data').value
             let svcUrl = pieces[0] + '//' + pieces[2] + '/service/?data=' + data
-            console.log(srcUrl)
+            console.log(svcUrl)
             $.ajax({
                 url: svcUrl
             }).then(function(data) {
