@@ -1,7 +1,7 @@
 /**
-* test services
-*
-*/
+ * test services
+ *
+ */
 
 let express = require('express'),
     session = require('express-session'),
@@ -22,6 +22,10 @@ app.get('/service',
     function(req, res) {
         let data = req.param('data')
         console.log(data)
+        res.setHeader("Access-Control-Allow-Origin", "*");
+        res.setHeader("Access-Control-Allow-Credentials", "true");
+        res.setHeader("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
+        res.setHeader("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers");
         res.send(data);
     });
 
@@ -31,5 +35,3 @@ app.get('/service',
 app.listen(port, function() {
     console.log('Express server listening on port ' + port);
 });
-
-
