@@ -23,9 +23,10 @@ app.get('/service',
         let data = req.param('data')
         console.log(data)
 
-        res.setHeader("Access-Control-Allow-Origin", "https://wmp-dh-dev-ed--c.na73.visual.force.com");
-        res.setHeader("Vary", "Origin")
-        //        res.setHeader("Access-Control-Allow-Origin", "*");
+        //res.setHeader("Access-Control-Allow-Origin", "https://wmp-dh-dev-ed--c.na73.visual.force.com");
+        //res.setHeader("Vary", "Origin")
+
+        res.setHeader("Access-Control-Allow-Origin", "*");
 
         res.setHeader("Access-Control-Allow-Credentials", "true");
         res.setHeader("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
@@ -489,6 +490,14 @@ app.get('/service',
                         "2011\/01\/25",
                         "$112,000"
                     ]
+                ],
+                "columns": [
+                    { "title": "0", "data": "0" },                
+                    { "title": "1", "data": "1" },
+                    { "title": "2", "data": "2" },
+                    { "title": "3", "data": "3" },
+                    { "title": "4", "data": "4" },
+                    { "title": "5", "data": "5" }
                 ]
             };
         }
