@@ -492,7 +492,7 @@ app.get('/service',
                     ]
                 ],
                 "columns": [
-                    { "title": "0", "data": "0" },                
+                    { "title": "Column0", "data": "0" },                
                     { "title": "1", "data": "1" },
                     { "title": "2", "data": "2" },
                     { "title": "3", "data": "3" },
