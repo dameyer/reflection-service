@@ -1629,27 +1629,27 @@ app.get('/service',
                     ]
                 ],
                 "columns": [{
-                        "title": "Name Header Label",
+                        "title": "Name",
                         "data": "0"
                     },
                     {
-                        "title": "RDG DATE Header Label",
+                        "title": "RDG DATE",
                         "data": "1"
                     },
                     {
-                        "title": "READ Header Label",
+                        "title": "READ",
                         "data": "2"
                     },
                     {
-                        "title": "Days Header Label",
+                        "title": "Days",
                         "data": "3"
                     },
                     {
-                        "title": "CHRG KWH Header Label",
+                        "title": "CHRG KWH",
                         "data": "4"
                     },
                     {
-                        "title": "Created Date Header Label",
+                        "title": "Created Date",
                         "data": "5"
                     }
                 ]
