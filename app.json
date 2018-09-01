@@ -3,6 +3,7 @@
   "description": "Node.js app used as an endpoint to test callouts to and parse responses",
   "repository": "https://github.com/dameyer/reflection-service",
   "logo": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/3/3b/Jakesalad.png/revision/latest?cb=20160503014517",
-  "keywords": ["node"]
+  "keywords": ["node"],
+  "success_url": "/service?data={\"sample\":\"sample\"}"
   }
 }
