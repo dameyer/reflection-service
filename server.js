@@ -515,6 +515,7 @@ app.get('/service',
                 ]
             };
         }
+        console.log(data.length)
         res.send(data);
     });
 
