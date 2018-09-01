@@ -4,6 +4,6 @@
   "repository": "https://github.com/dameyer/reflection-service",
   "logo": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/3/3b/Jakesalad.png/revision/latest?cb=20160503014517",
   "keywords": ["node"],
-  "success_url": "/service?data={\"sample\":\"sample\"}"
+  "success_url": "/service?data=What you want the service to give you back"
   }
 }
